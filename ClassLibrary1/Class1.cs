@@ -8,14 +8,14 @@ namespace ClassLibrary1
 
         public static string Gen(int n)
         {
-            string a = "";
+            string str = "";
             Random rnd = new Random();
             for (int i = 0; i < n; i++)
             {
                 int x = (rnd.Next(2,14));
-                a += x + " ";
+                str += x + " ";
             }
-            return a;
+            return str;
         }
 
         public static string Ras(string r)
