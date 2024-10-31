@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Практическая_1_Трусов</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="https___moi-raskraski.ru_images_raskraski_dlja-malenkih_kalkulyator_moi-raskraski-kalkulyator-1.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="https___moi-raskraski.ru_images_raskraski_dlja-malenkih_kalkulyator_moi-raskraski-kalkulyator-1.jpg" />
+  </ItemGroup>
+
+</Project>
